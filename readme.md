@@ -21,7 +21,7 @@ zip 压缩包为项目源码。
 
 📚📚 本项目有详细的讲解教程，原文请关注我的微信公众号【卧梅又闻花】📚📚
 
-[《2025 新春版：一个近乎完美的 Konva 手写板诞生记》](https://mp.weixin.qq.com/s/2jVWohWr5vqXHrZhaM1nAQ)
+[《2025 新春版：一个近乎完美的 Konva 手写板诞生记》](https://mp.weixin.qq.com/s/1n_AGmKpSwYsMkTpgW6Bsg) 
 
 ## 教程目录
 
