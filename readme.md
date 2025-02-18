@@ -23,7 +23,7 @@ zip 压缩包为项目源码。
 
 [《2025 新春版：一个近乎完美的 Konva 手写板诞生记（Vue版）》](https://mp.weixin.qq.com/s/cowD80tN0OkbTRyNXUb4bQ)
 
-[《2025 新春版：一个近乎完美的 Konva 手写板诞生记（React版）》](https://mp.weixin.qq.com/s/cowD80tN0OkbTRyNXUb4bQ)
+[《2025 新春版：一个近乎完美的 Konva 手写板诞生记（React版）》](https://mp.weixin.qq.com/s/1xy10ZFPtU0cyVQi-AmRbw)
 
 ## 教程目录
 
