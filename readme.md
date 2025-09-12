@@ -76,3 +76,27 @@ ZIP项目源码解压密码
 | onLinesChanged     | 事件回调：笔划发生改变                                                  | function                     |          null             |
 | onUndoFinished     | 事件回调：撤销完成，返回剩余可撤销的次数                                   | function(number: resetCount) |       null               |
 
+
+## 更新日志
+### 1.1.0 （2025-09-12）
+更新全部依赖至当前最新版本：
+```
+@eslint/js                    ^9.20.0  →   ^9.35.0
+@types/react                  ^19.0.8  →  ^19.1.12
+@types/react-dom              ^19.0.3  →   ^19.1.9
+@vitejs/plugin-react           ^4.3.4  →    ^5.0.2
+antd                          ^5.24.0  →   ^5.27.3
+eslint                        ^9.20.1  →   ^9.35.0
+eslint-plugin-react           ^7.37.4  →   ^7.37.5
+eslint-plugin-react-hooks      ^5.1.0  →    ^5.2.0
+eslint-plugin-react-refresh   ^0.4.19  →   ^0.4.20
+globals                      ^15.15.0  →   ^16.4.0
+konva                         ^9.3.18  →   ^10.0.2
+less                           ^4.2.2  →    ^4.4.1
+react                         ^19.0.0  →   ^19.1.1
+react-dom                     ^19.0.0  →   ^19.1.1
+react-konva                   ^19.0.2  →  ^19.0.10
+sass                          ^1.85.0  →   ^1.92.1
+vite                           ^6.1.0  →    ^7.1.5
+```
+无业务代码更新。
