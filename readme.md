@@ -78,11 +78,13 @@ ZIP项目源码解压密码
 
 
 ## 更新日志
-### 1.1.0 （2025-09-12）
-更新全部依赖至当前最新版本：
+### 1.1.0 （2025-09-15）
+更新全部依赖至当前最新版本。
+
+#### draw-canvas-react-js版本
 ```
 @eslint/js                    ^9.20.0  →   ^9.35.0
-@types/react                  ^19.0.8  →  ^19.1.12
+@types/react                  ^19.0.8  →  ^19.1.13
 @types/react-dom              ^19.0.3  →   ^19.1.9
 @vitejs/plugin-react           ^4.3.4  →    ^5.0.2
 antd                          ^5.24.0  →   ^5.27.3
@@ -100,3 +102,66 @@ sass                          ^1.85.0  →   ^1.92.1
 vite                           ^6.1.0  →    ^7.1.5
 ```
 无业务代码更新。
+
+#### draw-canvas-react-ts版本
+```
+@eslint/js                    ^9.20.0  →   ^9.35.0
+@types/node                  ^22.13.4  →   ^24.4.0
+@types/react                  ^19.0.8  →  ^19.1.13
+@types/react-dom              ^19.0.3  →   ^19.1.9
+@vitejs/plugin-react           ^4.3.4  →    ^5.0.2
+antd                          ^5.24.0  →   ^5.27.3
+eslint                        ^9.20.1  →   ^9.35.0
+eslint-plugin-react-hooks      ^5.1.0  →    ^5.2.0
+eslint-plugin-react-refresh   ^0.4.19  →   ^0.4.20
+globals                      ^15.15.0  →   ^16.4.0
+konva                         ^9.3.18  →   ^10.0.2
+less                           ^4.2.2  →    ^4.4.1
+react                         ^19.0.0  →   ^19.1.1
+react-dom                     ^19.0.0  →   ^19.1.1
+react-konva                   ^19.0.2  →  ^19.0.10
+sass                          ^1.84.0  →   ^1.92.1
+typescript                     ~5.7.3  →    ~5.9.2
+typescript-eslint             ^8.24.0  →   ^8.43.0
+vite                           ^6.1.0  →    ^7.1.5
+```
+无业务代码更新。
+
+#### draw-canvas-vue-js版本
+```
+@eslint/js                ^9.20.0  →  ^9.35.0
+@vitejs/plugin-vue         ^5.2.1  →   ^6.0.1
+element-plus               ^2.9.4  →  ^2.11.2
+eslint                    ^9.20.1  →  ^9.35.0
+eslint-plugin-vue         ^9.32.0  →  ^10.4.0
+konva                     ^9.3.18  →  ^10.0.2
+prettier                   ^3.5.1  →   ^3.6.2
+vite                       ^6.1.0  →   ^7.1.5
+vite-plugin-vue-devtools   ^7.7.2  →   ^8.0.2
+vue                       ^3.5.13  →  ^3.5.21
+vue-konva                  ^3.2.0  →   ^3.2.6
+```
+无业务代码更新。
+
+#### draw-canvas-vue-ts版本
+```
+@tsconfig/node22                ^22.0.0  →  ^22.0.2
+@types/node                    ^22.13.4  →  ^24.4.0
+@vitejs/plugin-vue               ^5.2.1  →   ^6.0.1
+@vue/eslint-config-typescript   ^14.4.0  →  ^14.6.0
+@vue/tsconfig                    ^0.7.0  →   ^0.8.1
+element-plus                     ^2.9.4  →  ^2.11.2
+eslint                          ^9.20.1  →  ^9.35.0
+eslint-plugin-vue               ^9.32.0  →  ^10.4.0
+jiti                             ^2.4.2  →   ^2.5.1
+konva                           ^9.3.18  →  ^10.0.2
+npm-run-all2                     ^7.0.2  →   ^8.0.4
+prettier                         ^3.5.1  →   ^3.6.2
+typescript                       ~5.7.3  →   ~5.9.2
+vite                             ^6.1.0  →   ^7.1.5
+vite-plugin-vue-devtools         ^7.7.2  →   ^8.0.2
+vue                             ^3.5.13  →  ^3.5.21
+vue-konva                        ^3.2.0  →   ^3.2.6
+vue-tsc                          ^2.2.0  →   ^3.0.7
+```
+修改`src/components/drawCanvas/DrawStage.vue`代码，增加部分变量是否为空的判断，符合ESlint的检查要求。
